@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511005669728",
+    "firebase_url": "https://indoplast-85027.firebaseio.com",
+    "project_id": "indoplast-85027",
+    "storage_bucket": "indoplast-85027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511005669728:android:078e02aa6f28fdbc",
+        "android_client_info": {
+          "package_name": "com.example.indoplast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511005669728-pjsia3lfh00k8hvks6ndqceebisl5t5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.indoplast",
+            "certificate_hash": "4088e6b41e4591d3693abcfa36bc08b94ca29a28"
+          }
+        },
+        {
+          "client_id": "511005669728-hsp2a9te307q5iactok3hecr747s9tc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv3dHQ6DQR5VJiAq1ITPHh88EtCZtnBsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511005669728-hsp2a9te307q5iactok3hecr747s9tc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

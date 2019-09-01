@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_center_focus_weak_black_24dp"
+            android:title="@string/menu_qr" />
+
+    </group>
+
+    <item android:title=" Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_vertical_align_top_black_24dp"
+                android:title="@string/menu_loading" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_vertical_align_bottom_black_24dp"
+                android:title="@string/menu_unloading" />
+
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="@string/menu_repair" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="@string/menu_log" />
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>

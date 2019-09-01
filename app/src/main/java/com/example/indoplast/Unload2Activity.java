@@ -5,30 +5,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class Unload2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_unload2);
 
-        Button login_button = findViewById(R.id.button);
-        login_button.setOnClickListener(new View.OnClickListener() {
+        Button Unload_button = findViewById(R.id.button_unload_submit);
+        Unload_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent= new Intent(MainActivity.this, HomeActivity.class);
+                Toast.makeText(Unload2Activity.this, "Data Uploaded", Toast.LENGTH_SHORT).show();
+                Intent myIntent= new Intent(Unload2Activity.this, HomeActivity.class);
                 startActivity(myIntent);
                 finish();
-
             }
         });
-
-
     }
-
-    public void button_login(View view) {
-    }
-
-
 }
